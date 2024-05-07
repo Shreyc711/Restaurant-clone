@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.top-logo{
+    height: 80px;
+    width: 80px;
+}
+.top-img{
+    width: 30%;
+    margin-left: 20px;
+
+}
+
+
+.nav-text{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.page1{
+    background-image:url("https://wallpapers.com/images/hd/restaurant-background-3zeei0b0na78yask.jpg");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.main-text{
+    font-size: 6rem;
+}
+.left-main{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.main-search{
+    height: 30px;
+    width: 300px;
+    border-style: none;
+    
+}
+
+.main-button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    color: aliceblue;
+    border-style: none;
+   
+
+}
+.three-icons{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}   
+
+.three-icons i{
+    padding-left:40px;
+}
+
+.three-icons h6{
+    padding-left: 5px;
+    font-size: large;
+}
+
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/images/brooke-lark-08bOYnH_r_E-unsplash.jpg");
+    object-fit: cover;
+    
+}
+
+.pg2-container{
+    height: 80%;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 10%;
+    font-size: 1.5rem;
+   
+   
+    
+    
+}
+
+.pg2-container h3{
+    color: orange;
+    padding-bottom: 20px;
+}
+.pg2-container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    padding-bottom: 20px;
+
+}
+
+.pg2-container p{
+    font-size: 3vh;
+    padding-bottom: 15px;
+   
+}
+
+.pg2-container .btn1{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.pg2-container .btn2{
+    height: 50px;
+    width:50px;
+    font-size: 15px;
+    background-color: rgb(248, 190, 29);
+    color: white;
+    border-style: none;
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
+
+
+.page3 h3{
+    color: orange;
+    font-size: 30px;
+
+}
+
+
+.page3 h1{
+    font-size: 10vh;
+}
+
+.page3 ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 500px;
+    list-style: none;
+    font-size: 20px;
+    
+    
+   
+    
+
+}
+
+.page3 ul  .num1li{
+    border-bottom: 3px solid orange;
+}
+.page3 ul li{
+    border-bottom: 3px solid black;
+}
+
+.four-imgs{
+    height: 500px;
+    width: 100%;
+  
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    padding: 0 200px;
+    justify-content: center;
+    
+}
+
+.four-imgs img{
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+
+
+.page4{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.pg4-main h4,h1,i,h2{
+    padding-top:20px;
+}
+    
+.pg4-another{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.mid-file{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mid-file img{
+    height: 400px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.mid-file i{
+    font-size: 30px;
+   color: orange;
+    
+}
+
+.pg4-main .onlyh4 ,
+h2,
+i{
+    color: orange;
+}
